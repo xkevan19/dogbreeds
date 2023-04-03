@@ -1,0 +1,100 @@
+#image-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#image-container img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: all ease 300ms;
+}
+
+#image-container img:hover {
+	cursor: pointer;
+	transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+input[type="text"] {
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+  
+input[type="submit"] {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0077ff;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all ease 400ms;
+}
+  
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #0055ff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transform: translateY(-7px);
+}
+  
+select {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+  
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0077ff;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all ease 400ms;
+}
+  
+button:hover {
+    cursor: pointer;
+    background-color: #0055ff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transform: translateY(-7px);
+}
+  
